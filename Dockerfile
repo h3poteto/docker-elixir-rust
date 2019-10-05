@@ -13,3 +13,4 @@ RUN set -ex && \
     rm rust-${RUST_VERSION}-x86_64-unknown-linux-gnu.tar.gz
 
 USER elixir
+WORKDIR /var/opt/app
