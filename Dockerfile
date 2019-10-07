@@ -1,4 +1,4 @@
-FROM h3poteto/elixir:1.9.1-slim-stretch
+FROM h3poteto/elixir:1.8.2-slim-stretch
 
 USER root
 ENV RUST_VERSION 1.38.0
