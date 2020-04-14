@@ -1,7 +1,7 @@
 FROM h3poteto/elixir:1.9.4-slim-buster
 
 USER root
-ENV RUST_VERSION 1.38.0
+ENV RUST_VERSION 1.42.0
 
 WORKDIR /tmp/
 
