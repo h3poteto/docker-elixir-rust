@@ -1,7 +1,7 @@
 FROM h3poteto/elixir:1.8.2-slim-stretch
 
 USER root
-ENV RUST_VERSION 1.38.0
+ENV RUST_VERSION 1.42.0
 
 WORKDIR /tmp/
 
