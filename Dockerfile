@@ -1,4 +1,4 @@
-FROM h3poteto/elixir:1.9.4-slim-buster
+FROM h3poteto/elixir:1.10.2-slim-buster
 
 USER root
 ENV RUST_VERSION 1.42.0
