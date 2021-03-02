@@ -1,7 +1,7 @@
-FROM ghcr.io/h3poteto/elixir:1.10.4-slim-buster
+FROM ghcr.io/h3poteto/elixir:1.11.3-slim-buster
 
 USER root
-ENV RUST_VERSION 1.42.0
+ENV RUST_VERSION 1.46.0
 
 WORKDIR /tmp/
 
