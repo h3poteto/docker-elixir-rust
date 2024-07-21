@@ -1,4 +1,4 @@
-FROM ghcr.io/h3poteto/elixir:1.16.3-slim
+FROM ghcr.io/h3poteto/elixir:1.17.2-slim
 
 USER root
 ENV RUST_VERSION 1.79.0
