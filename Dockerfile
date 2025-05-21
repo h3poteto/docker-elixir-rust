@@ -1,7 +1,7 @@
-FROM ghcr.io/h3poteto/elixir:1.17.2-slim
+FROM ghcr.io/h3poteto/elixir:1.18.3-slim
 
 USER root
-ENV RUST_VERSION 1.79.0
+ENV RUST_VERSION 1.87.0
 
 WORKDIR /tmp/
 
